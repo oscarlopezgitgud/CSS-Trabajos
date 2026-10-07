@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 260px;
+    transform-style: preserve-3d;
+    animation: animate 12s linear infinite;
+}
+
+.card {
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card1 {
+    background-image: url("1.jpg");
+    transform: rotateY(0deg) translateZ(350px);
+}
+.card2 {
+    background-image: url("2.jpg");
+    transform: rotateY(45deg) translateZ(350px);
+}
+.card3 {
+    background-image: url("3.gif");
+    transform: rotateY(90deg) translateZ(350px);
+}
+.card4 {
+    background-image: url("4.gif");
+    transform: rotateY(135deg) translateZ(350px);
+}
+.card5 {
+    background-image: url("5.gif");
+    transform: rotateY(180deg) translateZ(350px);
+}
+.card6 {
+    background-image: url("6.gif");
+    transform: rotateY(225deg) translateZ(350px);
+}
+.card7 {
+    background-image: url("7.jpg");
+    transform: rotateY(270deg) translateZ(350px);
+}
+.card8 {
+    background-image: url("8.jpg");
+    transform: rotateY(315deg) translateZ(350px);
+}
+
+@keyframes animate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}

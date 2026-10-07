@@ -1,0 +1,56 @@
+/* Prof. Christian ---- HTML y CSS */
+/* Estilos generales del cuerpo de la página */
+body {
+    display: flex;           /* Usa Flexbox para centrar */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* 100% del alto de la ventana */
+    background: #f0f2f5;   /* Color de fondo */
+    font-family: sans-serif; /* Tipo de fuente */
+    margin: 0;               /* Elimina margenes por defecto */
+}
+/* Estilos de la tarjeta */
+.card {
+    width: 240px;            /* Ancho de la tarjeta */
+    background: white;     /* Fondo blanco */
+    padding: 30px 20px;      /* Espacio interno */
+    border-radius: 15px;     /* Bordes redondeados */
+    text-align: center;      /* Alineación del texto */
+    box-shadow: 0 4px 16px rgba(e,0,0,0.1); /* Sombra */
+}
+
+/* Estilo del título */
+h3 {
+    margin: 0;               /* Sin margen */
+    color: #333;           /* Color del texto */
+    font-size: 22px;         /* Tamaño de fuente */
+}
+/* Estilo de la ciudad */
+.info {
+    color: #888;           /* Color gris */
+    font-size: 14px;         /* Tamaño de fuente */
+    margin-top: 5px;         /* Espacio superior */
+}
+/* Estilo de la descripción */
+.bio {
+    color: #555;           /* Color del texto */
+    font-size: 15px;         /* Tamaño de fuente */
+    margin: 20px 0;          /* Espacio arriba y abajo */
+    line-height: 1.4;        /* Espaciado entre lineas */
+}
+/* Estilo del botón */
+button {
+    width: 100%;             /* Ancho completo de la tarjeta */
+    padding: 12px;           /* Espacio interno */
+    background: #fF4b6e;    /* Color de fondo */
+    color: white;            /* Color del texto */
+    border: none;            /* Sin borde */
+    border-radius: 25px;     /* Bordes redondeados */
+    cursor: pointer;         /* Cambla el cursor al pasar el mouse */
+    font-weight: bold;       /* Texto en negrita */
+}
+
+
+
+
+
